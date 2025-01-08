@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  app:
-    build:
-      context: .
-    volumes:
-      - ./app:/app
-    command: python app.py
